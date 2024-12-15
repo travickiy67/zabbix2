@@ -43,7 +43,7 @@
 
 ![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/1.1.png)  
 
-![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/1.1.png)   
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/1.2.png)   
 
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
