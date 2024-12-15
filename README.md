@@ -106,7 +106,7 @@
 
 **Ответ 4**
 
-![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/4.3.png)  
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/4.1.png)  
 
  ---
 
