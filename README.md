@@ -39,6 +39,12 @@
 3. Создайте Item который будет собирать информацию об загрузке CPU в процентах
 4. Создайте Item который будет собирать информацию об загрузке RAM в процентах
 
+**Ответ 1**
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/1.1.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/1.1.png)   
+
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
 
@@ -58,6 +64,11 @@
 #### Требования к результату
 - [ ] Результат данного задания сдавайте вместе с заданием 3
 
+**Ответ 2**
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/img2.1.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/img2.2.png)   
  ---
 
 ### Задание 3
@@ -72,6 +83,14 @@
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы хостов, где будут видны привязки шаблонов с названиями «Задание 2-3». Хосты должны иметь зелёный статус подключения
 
+**Ответ 3**  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/img3.1.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/img3.2.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/img3.3.png)  
+
  ---
 
 ### Задание 4
@@ -85,6 +104,10 @@
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот дашборда с названием «Задание 4»
 
+**Ответ 4**
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/4.3.png)  
+
  ---
 
 ### Задание 5* со звёздочкой
@@ -97,6 +120,16 @@
 
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот карты, где видно, что триггер сработал, с названием «Задание 5» 
+
+**Ответ 5**
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/5.1.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/5.2.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/5.3.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/5.4.png)  
 
  ---
 
