@@ -131,6 +131,7 @@
 
 ![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/5.4.png)  
 
+
  ---
 
 ### Задание 6* со звёздочкой
@@ -139,8 +140,40 @@
 - при получении 2 будет возвращать текущую дату.
 
 #### Требования к результату
-- [ ] Прикрепите в файл README.md код скрипта, а также скриншот Latest data с результатом работы скрипта на bash, чтобы был виден результат работы скрипта при отправке в него 1 и 2
- 
+- [ ] Прикрепите в файл README.md код скрипта, а также скриншот Latest data с результатом работы скрипта на bash, чтобы был виден результат работы скрипта при отправке в него 1 и 2  
+
+**На всех хостах настроил user-parameter и ттключил лишнее для наглядности**   
+
+```
+UserParameter=MyParameter[*], /etc/zabbix/zabbix_agentd.d/param.sh "$1"
+```
+
+```
+#!/bin/bash
+case "$1" in
+    ('1')
+        echo "TravitskiiSV"
+    ;;
+    '2')
+        echo $(date)
+    ;;
+    *)
+        echo "Parameter not specified"
+    ;;
+esac
+```
+
+**Задание 6**
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/6.1.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/6.2.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/6.3.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/6.4.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/6.5.png)  
  ---
 
 ### Задание 7* со звёздочкой
