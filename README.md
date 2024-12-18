@@ -184,27 +184,39 @@ esac
 - делать всё, что делал скрипт из лекции.
 
 - [ ] Прикрепите в файл README.md код скрипта в Git. Приложите в Git скриншот Latest data с результатом работы скрипта на Python, чтобы были видны результаты работы скрипта при отправке в него 1, 2, -ping, а также -simple_print.*
- 
+
+**Ответ 7**  
+
+- Файл test_user_parameter.conf  
+```
+UserParameter=my_script[*], python3 /etc/zabbix/test_python_script.py $1
+```
+
+- Файл test_python_script.py  
+
+```
+import datetime
+dt = (datetime.datetime.now())
+import sys
+import os
+import re
+if (sys.argv[1] == '1'):
+        print(f"Travbtskii_SV:")
+
+elif (sys.argv[1] == '2'):
+        print(dt.strftime("%d-%m-%Y %H:%M:%S"))
+```
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/7.1.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/7.2.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/7.3.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/7.4.png)  
+
+![alt text](https://github.com/travickiy67/zabbix2/blob/main/img/7.5.png)   
+
+
  ---
-
-### Задание 8* со звёздочкой
-
-Настройте автообнаружение и прикрепление к хостам созданного вами ранее шаблона.
-
-#### Требования к результату
-- [ ] Прикрепите в файл README.md скриншот правила обнаружения, а также скриншот страницы Discover, где видны оба хоста.*
-
- ---
-
-### Задание 9* со звёздочкой
-
-Доработайте скрипты Vagrant для 2-х агентов, чтобы они были готовы к автообнаружению сервером, а также имели на борту разработанные вами ранее параметры пользователей.
-
-- [ ] Приложите в GitHub файлы Vagrantfile и zabbix-agent.sh.*
-
-## Критерии оценки
-
-1. Выполнено минимум 4 обязательных задания
-2. Прикреплены требуемые скриншоты, код и файлы 
-3. Задание оформлено в шаблоне с решением и опубликовано на GitHub
+- Задание 8 и 9 буду изучать отдельно, не заработало
 
